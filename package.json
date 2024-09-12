@@ -7,11 +7,13 @@
   "license": "ISC",
   "dependencies": {
     "mkdirp": "^3.0.1",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.0.1",
+    "unit-tests-jest": "file:"
   },
   "scripts": {
     "clean": "rimraf ./coverage && mkdirp ./coverage",
     "test": "npm run clean && jest",
+    "test:watch": "npm run clean && jest --watch",
     "coverage": "npm run clean && jest --coverage"
   },
   "jest": {
