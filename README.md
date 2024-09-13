@@ -1,27 +1,18 @@
-# JEST Unit Tests
+# Trabalho01Turma02 - JEST Unit Tests
 
-## GitHub Actions
+## Autor
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+- Nicolas Loffi Kaminski
 
-## SonarCloud
+## Instruções
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
+Siga as intruções abaixo para executar o projeto:
 
-## Getting Started
+1. Instale [Node JS](https://nodejs.org/) (version >= 20.x)
+2. Clone o projeto em sua maquina
+3. Execute `npm install` para instalar as dependencias
+4. Execute `npm run test` para iniciar os testes
+5. Execute `npm run coverage "nome arquivo"` para verificar a cobertura dos testes da classe escolhida
+Todas as execuções podem ser encontradas na pasta `./coverage`, caso queira limpar os arquivo de cobertura, execute `npm run clean`.
+Os testes das classes se encontram na pasta `./test` com os nomes das classes respectivamentes.
 
-In order to execute this project you must follow the steps below:
-
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
-
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
-
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
